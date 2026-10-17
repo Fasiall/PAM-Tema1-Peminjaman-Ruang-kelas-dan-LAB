@@ -41,8 +41,13 @@ fun App() {
                     modifier = Modifier.fillMaxWidth(),
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
-                    Image(painterResource(Res.zdrawable.compose_multiplatform), null)
-                    Text("Compose: $greeting")
+//                    Image(painterResource(Res.zdrawable.compose_multiplatform), null)
+                    Text("Nama Anggota Kelompok")
+                    Text("Faisal H Sinambela (124140040")
+                    Text("Hafidz Haqiqi (124140016")
+                    Text("Muhammad Rofik Asidiqi (124140010")
+                    Text("Stevan Immanuel Simbolon (124140130")
+                    Text("Gede Valendra (124140142")
                 }
             }
         }
