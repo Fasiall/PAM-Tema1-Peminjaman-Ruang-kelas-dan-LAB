@@ -31,6 +31,7 @@ fun App() {
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
+            Text("Pengingat Tugas Kuliah - ${getPlatform().name}")
             Button(onClick = { showContent = !showContent }) {
                 Text("Click me!")
             }
