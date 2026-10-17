@@ -1,4 +1,4 @@
-# PAM - Tema 2: Pengingat Tugas Kuliah
+# PAM - Tema 1: Peminjaman Ruang Kelas dan Lab
 
 
 ## Anggota Kelompok
@@ -11,4 +11,3 @@
 | 4 | **Stevan Immanuel Simbolon** | 124140130 | Anggota |
 | 5 | **Gede Valendra** | 124140142 | Anggota |
 
-## Dokumentasi Aplikasi
