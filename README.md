@@ -27,3 +27,9 @@
 | 5 | **Gede Valendra** | 124140142 | Anggota |
 
 ## Deskripsi Proyek
+
+
+## Tahapan Pengerjaan TugasProyek
+> -> Clone Folder Tugas Terakhir
+> -> Sync Gradle
+> -> Update Code Sesuai Tugas Yang Akan Dikerjakan 
