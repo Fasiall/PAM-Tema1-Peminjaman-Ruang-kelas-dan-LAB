@@ -3,7 +3,7 @@
 
   <br/>
   
-  <b>Selamat datang di repositori Kelompok 13 - PAM KMP! 🚀</b>
+  <b>Selamat datang di repositori Kelompok T - PAM KMP! 🚀</b>
   <p>Repositori ini didedikasikan untuk pengembangan aplikasi Sistem Peminjaman Ruang Kelas dan LAB secara Multiplatform.</p>
 
   <p align="center">
@@ -16,7 +16,7 @@
 
 ---
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
 | No | Nama | NIM | Peran |
 |:--:|:-----|:---:|:-----:|
@@ -26,34 +26,10 @@
 | 4 | **Stevan Immanuel Simbolon** | 124140130 | Anggota |
 | 5 | **Gede Valendra** | 124140142 | Anggota |
 
----
+## Deskripsi Proyek
 
-## 📖 Deskripsi Proyek
-Sistem Peminjaman Ruang Kelas dan LAB adalah aplikasi berbasis Kotlin Multiplatform (KMP) yang dirancang untuk memudahkan mahasiswa maupun pihak kampus dalam mengajukan, mengelola, serta memantau status peminjaman fasilitas secara efisien.
 
----
-
-## 🚀 Tahapan Pengerjaan Tugas Proyek
-> 1. Clone Folder Tugas Terakhir
-> 2. Sync Gradle
-> 3. Update Code Sesuai Tugas Yang Akan Dikerjakan
-
----
-
-## 📊 Grafik Aktivitas Repositori
-*(Grafik otomatis yang merekam aktivitas commit pada repository ini)*
-
-<p align="center">
-  <a href="https://github.com/Fasiall/PAM-Tema1-Peminjaman-Ruang-kelas-dan-LAB/graphs/commit-activity">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fasiall&repo=PAM-Tema1-Peminjaman-Ruang-kelas-dan-LAB&theme=react&bg_color=111827&color=38bdf8&line=38bdf8&point_color=ffffff&area=true" width="100%" />
-  </a>
-</p>
-
----
-
-## 🏆 Top Kontributor
-<p align="center">
-  <a href="https://github.com/Fasiall/PAM-Tema1-Peminjaman-Ruang-kelas-dan-LAB/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=Fasiall/PAM-Tema1-Peminjaman-Ruang-kelas-dan-LAB" />
-  </a>
-</p>
+## Tahapan Pengerjaan TugasProyek
+> -> Clone Folder Tugas Terakhir
+> -> Sync Gradle
+> -> Update Code Sesuai Tugas Yang Akan Dikerjakan 
