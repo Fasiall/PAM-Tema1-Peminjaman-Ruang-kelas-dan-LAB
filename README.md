@@ -32,4 +32,9 @@
 ## Tahapan Pengerjaan TugasProyek
 > -> Clone Folder Tugas Terakhir
 > -> Sync Gradle
-> -> Update Code Sesuai Tugas Yang Akan Dikerjakan 
+> -> Update Code Sesuai Tugas Yang Akan Dikerjakan
+
+## Top Kontributor - Ayo Jangan Ketinggalan !!
+<a href="https://github.com/Fasiall/PAM-Tema1-Peminjaman-Ruang-kelas-dan-LAB/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Fasiall/PAM-Tema1-Peminjaman-Ruang-kelas-dan-LAB" />
+</a>
