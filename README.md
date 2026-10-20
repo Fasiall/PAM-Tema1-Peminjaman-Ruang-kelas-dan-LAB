@@ -30,6 +30,6 @@
 
 
 ## Tahapan Pengerjaan TugasProyek
-> -> Clone Folder Tugas Terakhir
+> Clone Folder Tugas Terakhir
 > -> Sync Gradle
 > -> Update Code Sesuai Tugas Yang Akan Dikerjakan 
