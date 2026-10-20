@@ -2,9 +2,9 @@ package com.example.tugas_minggu2.model
 
 // 3. Satu sealed class untuk status sesuai bank proyek (Diajukan, Disetujui, Ditolak)
 sealed class StatusPeminjaman {
-    object Diajukan : StatusPeminjaman()
-    object Disetujui : StatusPeminjaman()
-    object Ditolak : StatusPeminjaman()
+    data object Diajukan : StatusPeminjaman()
+    data object Disetujui : StatusPeminjaman()
+    data object Ditolak : StatusPeminjaman()
 }
 
 // 1. Entitas utama peminjaman ruang kelas dan LAB[cite: 1]
