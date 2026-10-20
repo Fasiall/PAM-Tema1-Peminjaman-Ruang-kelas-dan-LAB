@@ -16,7 +16,7 @@
 
 ---
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
 | No | Nama | NIM | Peran |
 |:--:|:-----|:---:|:-----:|
@@ -25,3 +25,5 @@
 | 3 | **Muhammad Rofik Asidiqi** | 124140010 | Anggota |
 | 4 | **Stevan Immanuel Simbolon** | 124140130 | Anggota |
 | 5 | **Gede Valendra** | 124140142 | Anggota |
+
+## Deskripsi Proyek
