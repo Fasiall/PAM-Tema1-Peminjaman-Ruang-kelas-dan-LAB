@@ -1,27 +1,31 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,100:81D4FA&height=200&section=header&text=Peminjaman%20Ruang%20&%20LAB&fontSize=34&fontColor=ffffff&fontAlignY=38&desc=PAM%20KMP%20%7C%20Institut%20Teknologi%20Sumatera&descAlignY=55&descAlign=50&animation=twinkling" width="100%" />
+This is a Kotlin Multiplatform project targeting Android, iOS.
 
-  <br/>
-  
-  <b>Selamat datang di repositori Kelompok T - PAM KMP! 🚀</b>
-  <p>Repositori ini didedikasikan untuk pengembangan aplikasi Sistem Peminjaman Ruang Kelas dan LAB secara Multiplatform.</p>
+* [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
+  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" />
-    <img src="https://img.shields.io/badge/Compose_Multiplatform-4285F4?style=for-the-badge&logo=android&logoColor=white" />
-    <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
-    <img src="https://img.shields.io/badge/Material_Design_3-3DDC84?style=for-the-badge&logo=materialdesign&logoColor=white" />
-  </p>
-</div>
+* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
+  It contains several subfolders:
+  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
+  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
+    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
+    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
+    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
+    folder is the appropriate location.
+
+### Running the apps
+
+Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+
+- Android app: `./gradlew :androidApp:assembleDebug`
+- iOS app: open the [/iosApp](./iosApp) directory in Xcode and run it from there.
+
+### Running tests
+
+Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
+
+- Android tests: `./gradlew :shared:testAndroidHostTest`
+- iOS tests: `./gradlew :shared:iosSimulatorArm64Test`
 
 ---
 
-## 👥 Anggota Kelompok
-
-| No | Nama | NIM | Peran |
-|:--:|:-----|:---:|:-----:|
-| 1 | **Faisal H. Sinambela** | 124140020 | Ketua |
-| 2 | **Hafidz Haqiqi** | 124140016 | Anggota |
-| 3 | **Muhammad Rofik Asidiqi** | 124140010 | Anggota |
-| 4 | **Stevan Immanuel Simbolon** | 124140130 | Anggota |
-| 5 | **Gede Valendra** | 124140142 | Anggota |
+Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
