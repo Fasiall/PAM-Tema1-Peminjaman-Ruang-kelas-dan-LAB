@@ -56,7 +56,6 @@ fun PeminjamanListScreen() {
             }
         }
     ) { innerPadding ->
-        // 2. LazyColumn untuk menampilkan daftar data[cite: 7]
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
@@ -71,7 +70,7 @@ fun PeminjamanListScreen() {
     }
 }
 
-// 1. Kartu entitas dengan label status[cite: 7]
+// 1. Kartu entitas dengan label status
 @Composable
 fun PeminjamanItemCard(peminjaman: Peminjaman) {
     Card(
