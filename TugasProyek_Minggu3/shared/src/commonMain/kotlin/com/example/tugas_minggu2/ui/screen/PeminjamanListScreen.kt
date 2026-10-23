@@ -22,7 +22,6 @@ import com.example.tugas_minggu2.model.StatusPeminjaman
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PeminjamanListScreen() {
-    // 2. Daftar dummy minimal 10 data contoh
     val dummyPeminjamanList = listOf(
         Peminjaman("P001", "Ahmad Fauzi", "123140001", "2026-10-24", RuangLab("R01", "Lab Pemrograman 1", 40, "LAB", "PC Core i7, AC"), StatusPeminjaman.Diajukan, "Menunggu konfirmasi admin"),
         Peminjaman("P002", "Siti Aminah", "123140002", "2026-10-25", RuangLab("R02", "Ruang Kuliah A.2.1", 50, "Kelas", "Proyektor, Papan Tulis"), StatusPeminjaman.Disetujui, null),
@@ -46,7 +45,6 @@ fun PeminjamanListScreen() {
                 )
             )
         },
-        // 3. Satu aksi utama berupa FAB di pojok kanan bawah
         floatingActionButton = {
             FloatingActionButton(
                 onClick = { /* Belum perlu berfungsi sesuai instruksi */ },
@@ -70,7 +68,6 @@ fun PeminjamanListScreen() {
     }
 }
 
-// 1. Kartu entitas dengan label status
 @Composable
 fun PeminjamanItemCard(peminjaman: Peminjaman) {
     Card(
@@ -93,7 +90,6 @@ fun PeminjamanItemCard(peminjaman: Peminjaman) {
                     fontWeight = FontWeight.Bold,
                     fontSize = 16.sp
                 )
-                // Label Status Peminjaman
                 StatusLabel(status = peminjaman.status)
             }
 
