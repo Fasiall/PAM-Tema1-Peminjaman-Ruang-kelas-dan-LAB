@@ -28,15 +28,51 @@ Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
 
 ---
 
-## Modul 5: Navigasi Antar Layar
+## Modul 6: Networking REST API dengan Ktor
 
-### Layar yang Dikerjakan:
+### Tema Proyek:
+**Peminjaman Ruang Kelas dan Lab**
 
-- **Layar Detail Peminjaman** (`PeminjamanDetailScreen.kt`):
-  - Mengambil data peminjaman berdasarkan ID melalui `DetailViewModel`.
-  - Menggunakan UI State (`DetailUiState`: `Memuat`, `Berhasil`, `Gagal`).
-  - Menampilkan informasi lengkap peminjaman (nama peminjam, NIM, tanggal, ruangan, kapasitas, tipe, fasilitas, status, dan catatan).
-  - Dilengkapi tombol kembali di `TopAppBar`.
-  - Menggunakan helper data source `PeminjamanDataPenyimpanan.kt`.
+---
+
+### Tahap 1: Pilih Server & Mock API
+Data entitas utama (ruang kelas dan laboratorium) disiapkan menggunakan Mock API berbasis JSON.
+
+- **File Mock JSON**: `mock_ruangan.json`
+- **Konfigurasi Base URL**: `ApiConfig.kt` (`com.example.tugas_minggu2.data.network`)
+- **Format Respons**: `application/json`
+
+#### Spesifikasi Endpoint:
+- **Endpoint**: `GET /ruangan`
+- **Deskripsi**: Mengambil seluruh daftar ruang kelas dan laboratorium beserta kapasitas dan status ketersediaannya.
+- **Struktur Field Respons**:
+  - `id` (`String`): Identitas unik ruangan (contoh: `"R001"`)
+  - `nama_ruangan` (`String`): Nama ruang kelas atau laboratorium
+  - `tipe` (`String`): Kategori ruangan (`"Kelas"` atau `"Lab"`)
+  - `kapasitas` (`Int`): Daya tampung ruangan
+  - `status_ketersediaan` (`String`): Status pemakaian ruangan (`"Tersedia"` atau `"Dipakai"`)
+  - `url_gambar` (`String`): URL gambar ruangan
+
+#### Contoh Respons JSON:
+```json
+[
+  {
+    "id": "R001",
+    "nama_ruangan": "Ruang Kelas GK1-101",
+    "tipe": "Kelas",
+    "kapasitas": 40,
+    "status_ketersediaan": "Tersedia",
+    "url_gambar": ""
+  },
+  {
+    "id": "R002",
+    "nama_ruangan": "Laboratorium Komputer Dasar",
+    "tipe": "Lab",
+    "kapasitas": 35,
+    "status_ketersediaan": "Dipakai",
+    "url_gambar": ""
+  }
+]
+```
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…

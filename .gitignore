@@ -20,5 +20,7 @@ captures/
 node_modules/
 
 # Build artifacts at root level
-desktopApp/
-shared/
+/desktopApp/
+/shared/
+bin/
+**/bin/
