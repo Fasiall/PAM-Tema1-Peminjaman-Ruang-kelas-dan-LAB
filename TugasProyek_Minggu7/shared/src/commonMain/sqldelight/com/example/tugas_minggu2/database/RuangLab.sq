@@ -1,0 +1,33 @@
+CREATE TABLE RuangLabEntity (
+    idRuang TEXT NOT NULL PRIMARY KEY,
+    namaRuangan TEXT NOT NULL,
+    kapasitas INTEGER NOT NULL,
+    jenis TEXT NOT NULL,
+    fasilitasDeskripsi TEXT,
+    statusKetersediaan TEXT,
+    urlGambar TEXT
+);
+
+semua:
+SELECT *
+FROM RuangLabEntity;
+
+byId:
+SELECT *
+FROM RuangLabEntity
+WHERE idRuang = :idRuang;
+
+simpan:
+INSERT OR REPLACE INTO RuangLabEntity(
+    idRuang,
+    namaRuangan,
+    kapasitas,
+    jenis,
+    fasilitasDeskripsi,
+    statusKetersediaan,
+    urlGambar
+)
+VALUES (?, ?, ?, ?, ?, ?, ?);
+
+hapusSemua:
+DELETE FROM RuangLabEntity;

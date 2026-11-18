@@ -1,0 +1,50 @@
+[
+  {
+    "id": "R001",
+    "nama_ruangan": "Ruang Kelas GK1-101",
+    "tipe": "Kelas",
+    "kapasitas": 40,
+    "status_ketersediaan": "Tersedia",
+    "url_gambar": ""
+  },
+  {
+    "id": "R002",
+    "nama_ruangan": "Laboratorium Komputer Dasar",
+    "tipe": "Lab",
+    "kapasitas": 35,
+    "status_ketersediaan": "Dipakai",
+    "url_gambar": ""
+  },
+  {
+    "id": "R003",
+    "nama_ruangan": "Ruang Kelas GK2-204",
+    "tipe": "Kelas",
+    "kapasitas": 50,
+    "status_ketersediaan": "Tersedia",
+    "url_gambar": ""
+  },
+  {
+    "id": "R004",
+    "nama_ruangan": "Laboratorium Rekayasa Perangkat Lunak",
+    "tipe": "Lab",
+    "kapasitas": 30,
+    "status_ketersediaan": "Tersedia",
+    "url_gambar": ""
+  },
+  {
+    "id": "R005",
+    "nama_ruangan": "Laboratorium Jaringan & Keamanan Siber",
+    "tipe": "Lab",
+    "kapasitas": 30,
+    "status_ketersediaan": "Dipakai",
+    "url_gambar": ""
+  },
+  {
+    "id": "R006",
+    "nama_ruangan": "Ruang Kuliah Umum (Auditorium)",
+    "tipe": "Kelas",
+    "kapasitas": 120,
+    "status_ketersediaan": "Tersedia",
+    "url_gambar": ""
+  }
+]
