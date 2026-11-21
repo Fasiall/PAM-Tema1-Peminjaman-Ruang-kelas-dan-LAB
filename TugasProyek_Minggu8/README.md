@@ -13,7 +13,7 @@ Modul ini berfokus pada integrasi fitur platform spesifik (seperti akses kamera/
 
 | Status | Anggota | Fokus Utama | Ringkasan Tugas |
 | :---: | :--- | :--- | :--- |
-| [ ] | **Anggota 1** | **Kontrak commonMain & Versi Palsu** | Menulis interface/expect, implementasi *fake*, dan kontrak state hasil izin (diterima/ditolak) sebagai acuan tim. |
+| [x] | **Anggota 1** | **Kontrak commonMain & Versi Palsu** | Menulis interface/expect, implementasi *fake*, dan kontrak state hasil izin (diterima/ditolak) sebagai acuan tim. |
 | [ ] | **Anggota 2** | **Implementasi Android & Izin Manifest** | Implementasi actual di `androidMain`, deklarasi izin di `AndroidManifest.xml`, dan pemicu izin saat tombol ditekan. |
 | [ ] | **Anggota 3** | **Implementasi Platform Kedua & Info.plist** | Implementasi actual di `iosMain` (atau `desktopMain`), deklarasi izin di `Info.plist`, dan pemicu izin saat tombol ditekan. |
 | [ ] | **Anggota 4** | **Integrasi UI & Penanganan Izin Ditolak** | Menghubungkan fitur ke UI, membangun fallback saat izin ditolak agar alur aplikasi tidak terputus, serta tombol alternatif (Buka Pengaturan). |
@@ -23,12 +23,12 @@ Modul ini berfokus pada integrasi fitur platform spesifik (seperti akses kamera/
 
 ## Rincian Teknis & Checklist Deliverables
 
-### 1. Anggota 1 — Kontrak commonMain & Versi Palsu
-- [ ] **Deklarasi Kontrak / Interface:**
-  - [ ] Menulis `interface` atau deklarasi `expect` untuk fitur platform di `commonMain`.
-  - [ ] Menentukan struktur return type / state hasil izin (misalnya: `Diterima`, `Ditolak`, `PerluRasional`) agar Anggota 2, 3, dan 4 memiliki acuan yang seragam.
-- [ ] **Implementasi Fake (Versi Palsu):**
-  - [ ] Membuat implementasi versi palsu (*fake/mock*) di `commonMain` untuk keperluan pengujian dan *preview* tanpa ketergantungan perangkat keras asli.
+### 1. Anggota 1 — Kontrak commonMain & Versi Palsu - [Stevan]
+- [✅] **Deklarasi Kontrak / Interface:**
+  - [✅] Menulis `interface` atau deklarasi `expect` untuk fitur platform di `commonMain`.
+  - [✅] Menentukan struktur return type / state hasil izin (misalnya: `Diterima`, `Ditolak`, `PerluRasional`) agar Anggota 2, 3, dan 4 memiliki acuan yang seragam.
+- [✅] **Implementasi Fake (Versi Palsu):**
+  - [✅] Membuat implementasi versi palsu (*fake/mock*) di `commonMain` untuk keperluan pengujian dan *preview* tanpa ketergantungan perangkat keras asli.
 
 ---
 
